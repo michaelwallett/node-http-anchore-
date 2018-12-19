@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: minnowberyl.azurecr.io/michaelwallett/node-http-anchore
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: node-http-anchore
